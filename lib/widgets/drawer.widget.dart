@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tp1_dwm_flutter_app/widgets/drawer.counter.widget.dart';
 import 'package:tp1_dwm_flutter_app/widgets/drawer.header.widget.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -10,6 +11,7 @@ class MyDrawer extends StatelessWidget {
       child: ListView(
         children: [
           new MyDrawerHeader(),
+          new DrawerCounter(),
         ],
       ),
     );
