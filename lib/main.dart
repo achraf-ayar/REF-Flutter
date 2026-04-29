@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tp1_dwm_flutter_app/pages/counter.page.dart';
 import 'package:tp1_dwm_flutter_app/pages/home.page.dart';
+import 'package:tp1_dwm_flutter_app/pages/settings.page.dart';
 
 void main() {
   runApp(new MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         "/": (context)=> HomePage(),
+        "/settings": (context)=> SettingsPage(),
         "/counter": (context)=> CounterPage(),
       },
       theme: new ThemeData(
