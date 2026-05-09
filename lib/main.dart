@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tp1_dwm_flutter_app/pages/animated.graphics.page.dart';
 import 'package:tp1_dwm_flutter_app/pages/counter.page.dart';
 import 'package:tp1_dwm_flutter_app/pages/graphics.page.dart';
 import 'package:tp1_dwm_flutter_app/pages/home.page.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         "/settings": (context)=> SettingsPage(),
         "/counter": (context)=> CounterPage(),
         "/graphics": (context)=> GraphicsPage(),
+        "/graphics2": (context)=> AnimatedGraphicsPage(),
       },
       theme: new ThemeData(
         appBarTheme: AppBarTheme(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tp1_dwm_flutter_app/widgets/drawer.animatedgraphics.widget.dart';
 import 'package:tp1_dwm_flutter_app/widgets/drawer.counter.widget.dart';
 import 'package:tp1_dwm_flutter_app/widgets/drawer.graphics.widget.dart';
 import 'package:tp1_dwm_flutter_app/widgets/drawer.settings.widget.dart';
@@ -16,6 +17,7 @@ class MyDrawer extends StatelessWidget {
           new DrawerSettings(),
           new DrawerCounter(),
           new DrawerGraphics(),
+          new DrawerGraphics2(),
         ],
       ),
     );
